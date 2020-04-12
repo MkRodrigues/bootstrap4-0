@@ -6,3 +6,36 @@ body {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .05);
 }
+
+.height {
+    height: 100px;
+}
+
+#home-quote {
+    background: url('../img/bg-quote.jpg') center center;
+    background-size: cover;
+}
+
+.pergunta {
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* @media-queries */
+
+@media (max-width: 767px){
+    #home-quote .display-4 {
+        font-size: 2.5rem;
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    .fixed-top {
+        position: relative;
+    }
+
+    .centro {
+        text-align: center;
+    }
+}
